@@ -1,0 +1,59 @@
+/* основне оформлення */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    color: #222;
+    line-height: 1.8;
+    margin: 20px;
+}
+
+/* заголовок */
+h1 {
+    color: #183b56;
+    text-align: center;
+}
+
+h2 {
+    color: #087e8b;
+}
+
+/* основа */
+main {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+/* секційні розділи сторінки */
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* моя фотографія */
+.my_photo {
+    display: block;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+/* силка на головне меню */
+.home-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.home_image {
+    width: 32px;
+    height: 32px;
+}
+
+/* Колір посилань */
+a {
+    color: #087e8b;
+}
+
+a:hover {
+    color: #d1495b;
+}
