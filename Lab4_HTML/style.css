@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 30px;
+  background-color: #f2f2f2;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  align-items: center;
+  color: darkblue;
+}
+
+form {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  width: auto;
+}
+
+button {
+  padding: 10px 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+picture img {
+  display: block;
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin: 25px auto;
+}
+
+.options label,
+checkbox {
+  display: block;
+  margin: 8px 15px 8px 0;
+}
